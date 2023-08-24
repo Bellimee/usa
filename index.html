@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webalkalmazás</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<! -- Container for the gallery -->
+<div class="container">
+
+    <! -- Full-width imgaes with text -->
+    <div class="mySlides">
+        <img class="active" id="picture" src="images/1.jpg" alt="Camel" style="width:100%">
+        <div class="caption">
+            <h1 id="title"></h1>
+            <p id="description"></p>
+        </div>
+        <!-- Next and previous buttons -->
+        <a id="prev">&#10094;</a>
+        <a id="next">&#10095;</a>
+    </div> 
+
+    <!-- Thumbnail images -->
+    <div class="row">
+        <div class="column">
+            <img num = "0" class="demo cursor" src="images/1.jpg" alt="Carmel">
+        </div>
+        <div class="column">
+            <img num = "1" class="demo cursor" src="images/2.jpeg " alt="RodeoDrive">
+        </div>
+        <div class="column">
+            <img num = "2" class="demo cursor" src="images/3.jpg" alt="SeaWorld">
+        </div>
+        <div class="column">
+            <img num = "3" class="demo cursor" src="images/4.jpg" alt="LasVegas">
+        </div>
+        <div class="column">
+            <img num = "4" class="demo cursor" src="images/5.jpg" alt="AntylopCanion">
+        </div>
+        <div class="column">
+            <img num = "5" class="demo cursor" src="images/6.jpg" alt="HorseShoeBand">
+        </div>
+        <div class="column">
+            <img num = "6" class="demo cursor" src="images/7.jpeg" alt="YosemitaNationalPark">
+        </div>
+    </div>
+</div>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
